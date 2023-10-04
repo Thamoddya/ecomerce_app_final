@@ -29,7 +29,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         $faker = Faker::create();
-        for ($i = 0; $i < 1000; $i++) {
+        for ($i = 0; $i < 100; $i++) {
 
             DB::table('cities')->insert([
                 'name' => $faker->city,
